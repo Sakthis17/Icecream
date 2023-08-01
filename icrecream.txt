@@ -1,0 +1,15 @@
+A icecream shop contains two varities namely vanilla and chocolate they  arranged icecreams in even and odd positions .vanillas at odd position and chocolate at evenposition.
+if user select one number that icecream will be given to the customers..lets see in java
+
+import  java.util.*;
+public class icecream{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+int n=sc.nextInt();
+if(n%2==0)
+System.out.println("chocolate icecream");
+else
+System.out.println("vanilla icecream");
+}
+}
